@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#g++ -g -O2 -c -o kyoto.o kyoto.cpp
+glibtool --mode=compile gcc -g -O2 -o kyoto.lo -c kyoto.cpp
